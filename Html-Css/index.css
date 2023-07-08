@@ -1,0 +1,213 @@
+body{
+    background-image: url(background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* Header Kısmındaki Bulunana Bilgilerin Css'i */
+header{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+header .heading-wrapper{
+    background: #0c2b41;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 200px 20px;  
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-container .info  {
+    margin-left: 45px;
+    display: flex;
+    flex-direction: row;    
+}
+
+header .info .bi{
+    float: left;
+    font-size: 45px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.intro-section {
+    padding-top: 200px;
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+    background-image: url(RESİMLER/slider-1-1920x1080.jpg);
+  }
+  
+  .intro-section:before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+  .intro-section:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    z-index: -1;
+    background: #fff;
+  }
+  
+  .intro {
+    padding: 0 20px;
+    margin-top: 100px;
+    text-align: center;
+    background: #fff;
+  }
+  
+  .intro .profile-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    top: -100px;
+    margin-bottom: -70px;
+  }
+  
+  .intro .information > li {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .intro .social-icons > li > a {
+    height: 35px;
+    line-height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    margin: 0 5px 5px;
+    background: #887392;
+    color: #fff;
+  }
+  
+  .intro .social-icons > li > a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 20px;
+    background: #0c2b41;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  
+  .intro .social-icons > li > a:hover:after {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+
+  .about-section .container {
+    background-color: white;
+    justify-content: center;
+    margin-left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+    .col-sm-8{
+    margin-left: 200px;
+}
+
+
+  .margin-b-50 {
+    margin-bottom: 50px;
+  }
+  h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+span,
+li,
+img,
+inpot,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5;
+  font-weight: inherit;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", cursive;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1.05em;
+  font-weight: 400;
+  color: #777;
+}
+
+h1 {
+  font-size: 4em;
+  line-height: 1;
+}
+h2 {
+  font-size: 2.2em;
+  line-height: 1.1;
+}
+h3 {
+  font-size: 1.8em;
+}
+h4 {
+  font-size: 1.3em;
+}
+h5 {
+  font-size: 1em;
+}
+h6 {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+
